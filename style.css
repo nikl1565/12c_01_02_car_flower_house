@@ -1,0 +1,74 @@
+body {
+    background-color: #ddd;
+}
+
+.car {
+    width: 200px;
+    height: 100px;
+}
+
+.car__body {
+}
+
+.pot-plant {
+    width: 70px;
+    height: 150px;
+}
+
+.pot-plant__head {
+    fill: black;
+}
+
+.pot-plant__leave-group {
+    fill: yellow;
+}
+
+.pot-plant__stem {
+    fill: transparent;
+    stroke-width: 10;
+    stroke: green;
+}
+
+.pot-plant__pot {
+    fill: #965241;
+}
+
+#wheel-1,
+#wheel-2 {
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+}
+
+.rotate {
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.house {
+    height: 100px;
+    width: 100px;
+}
+
+.house__door {
+    fill: #fff;
+}
+
+.house__base {
+    fill: burlywood;
+}
+
+.house__chimney {
+    fill: brown;
+}
+
+.house__window {
+    fill: #fff;
+}

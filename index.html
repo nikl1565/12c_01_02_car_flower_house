@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12C.01.02 - Car, Flower, House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <svg class="car" viewBox="0 0 400 200">
+        <rect class="car__body" width="260" height="100" rx="10" transform="translate(75, 20)"/>
+        <g id="wheel-1" class="pot-plant__leave-group">
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(70, 170)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(45, 160) rotate(25)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(25, 140) rotate(60)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(25, 110) rotate(95)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(35, 85) rotate(125)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(55, 75) rotate(160)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(80, 75) rotate(190)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(100, 80) rotate(210)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(110, 100) rotate(240)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(110, 130) rotate(270)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(110, 150) rotate(300)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(90, 160) rotate(330)"/>
+            <circle class="pot-plant__head" cx="70" cy="120" r="25"/>
+        </g>
+        <g id="wheel-2" class="pot-plant__leave-group" transform="translate(260, 0)">
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(70, 170)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(45, 160) rotate(25)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(25, 140) rotate(60)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(25, 110) rotate(95)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(35, 85) rotate(125)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(55, 75) rotate(160)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(80, 75) rotate(190)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(100, 80) rotate(210)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(110, 100) rotate(240)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(110, 130) rotate(270)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(110, 150) rotate(300)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(90, 160) rotate(330)"/>
+            <circle class="pot-plant__head" cx="70" cy="120" r="25"/>
+        </g>
+    </svg>
+    <svg class="pot-plant" viewBox="0 0 140 340">
+        <path class="pot-plant__stem" d=
+        "
+        M 70 120
+        C 20 160
+          100 160
+          70 270
+        "/>
+        <rect class="pot-plant__pot" x="35" y="260" height="80" width="70" rx="10"/>
+        <g class="pot-plant__leave-group">
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(70, 170)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(45, 160) rotate(25)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(25, 140) rotate(60)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(25, 110) rotate(95)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(35, 85) rotate(125)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(55, 75) rotate(160)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(80, 75) rotate(190)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(100, 80) rotate(210)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(110, 100) rotate(240)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(110, 130) rotate(270)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(110, 150) rotate(300)"/>
+            <ellipse class="pot-plant__leave" rx="15" ry="30" transform="translate(90, 160) rotate(330)"/>
+            <circle class="pot-plant__head" cx="70" cy="120" r="25"/>
+        </g>
+    </svg>
+    <svg class="house" viewBox="0 0 100 100">
+        <polygon class="house__roof" points="0 50 50 0 100 50"/>
+        <rect class="house__base" height="50" width="100" y="50"/>
+        <rect class="house__door" height="30" width="20" y="70" x="40"/>
+        <rect class="house__chimney" height="25" width="15" transform="translate(70, 10)"/>
+        <rect class="house__window" height="20" width="20" transform="translate(70, 60)"/>
+        <rect class="house__window" height="20" width="20" transform="translate(10, 60)"/>
+    </svg>
+
+    <script src="script.js"></script>
+</body>
+</html>
